@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    
+    <!--Estilização CSS*-->
+    <style>
+        /*Estilização dos conteudos em h1 e h2*/
+        .t1{
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            background-size: contain;
+            background-color: blueviolet;
+        }
+        .t2{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        .one{
+            list-style-type: none;
+            margin: auto;
+
+          
+        }
+
+        .li1 {float: left;} /*Lista Flutuante Horizontal*/
+
+        
+        #lk1{
+            background-color: rgb(62, 144, 238);
+        }
+        #lk2{
+            background-color: rgb(147, 211, 187);
+        }
+        #lk3{
+            background-color: rgb(245, 184, 15);
+        }
+        #lk4{
+            background-color: rgb(80, 150, 243);
+
+        }
+
+        li a {
+            display: block;
+            color: black;
+            padding: 10px 200px;
+            text-decoration: none;
+            background-color: rgb(10, 245, 245);
+        }
+
+        /*Estilização mouse Sobre*/
+        li a:hover{
+            color: blue;
+        }
+
+        /*Estilização da pagina (Corpo)*/
+       body{
+        background-image:url(img/SiteBackground.jpg);
+        background-repeat: no-repeat;
+       }
+
+       /*Estilização dos links tag <a>*/
+       .tamanho{
+            width: 15%;
+            height: 150px;
+            border: solid 1px;
+            border-radius: 50px 5px;
+        }
+
+        .site1{
+            margin: auto;
+            background-image: url(img/Curitiba.jpg);
+            background-size: contain;
+            position: relative;
+            top: 10px;
+        }
+        .site2{
+            margin: auto;
+            background-image: url(img/Historia\ da\ Internet.png);
+            background-size: contain;
+            position: relative;
+            top: 10px;
+        }
+        .site3{
+            display: block;
+            margin: auto;
+            background-image: url(img/Buguer.jpg);
+            background-size: contain;
+            position: relative;
+            background-position: 30px;
+            top: 10px;
+        }
+
+        .t3{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Titulos h1 e h2 -->
+    <h1 class="t1">Portifolio</h1>
+    <h2 class="t2"> Conheça Meus Trabalhos</h2>
+    <nav>
+        <ul class="one">  <!--Lista com Links para as demais paginas do Site-->
+            <li class="li1"><a id="lk1" href="index.html">Home</a></li>
+            <li class="li1"><a id="lk2" href="SobreMim.html">Sobre Mim</a></li>
+            <li class="li1"><a id="lk3" href="Formacão.html">Formação</a></li>
+            <li class="li1"><a id="lk4" href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <br>
+ 
+    <!--Links para as paginas com contudo do Portifolio-->
+    <a href="Portifolio/Curitiba.html">
+        <br>
+        <h1 class="t3">Site Curitiba</h1>
+        <div class=" tamanho site1"></div>
+    </a>
+
+    <a href="Portifolio/Historia da Internet.html">
+        <br>
+        <h1 class="t3">Site Historia da Internet</h1>
+        <div class=" tamanho site2"></div>
+    </a>
+
+    <a href="Portifolio/Hamburgueria.html">
+        <br>
+        <h1 class="t3">Site Hamburgueria</h1>
+        <div class=" tamanho site3"></div>
+    </a>
+
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+
+    <!--Estilização CSS*-->
+    <style>
+        /*Estilização dos conteudos em h1 e h2*/
+        .t1{
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            background-size: contain;
+            background-color: blueviolet;
+        }
+        .t2{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        .one{
+            list-style-type: none;
+            margin: auto;
+
+          
+        }
+
+        .li1 {float: left;} /*Lista (conteudo Formação) Flutuante Horizontal*/
+
+        
+        #lk1{
+            background-color: rgb(62, 144, 238);
+        }
+        #lk2{
+            background-color: rgb(147, 211, 187);
+        }
+        #lk3{
+            background-color: rgb(245, 184, 15);
+        }
+        #lk4{
+            background-color: rgb(80, 150, 243);
+
+        }
+
+        /*Estilização das listas organizadas e não organizadas */
+        li a {
+            display: block;
+            color: black;
+            padding: 10px 200px;
+            text-decoration: none;
+            background-color: rgb(10, 245, 245);
+            
+        }
+
+        /*Estilização mouse Sobre*/
+        li a:hover{
+            background-color: rgb(33, 230, 59);
+            color: blue;
+        }
+        .li2:hover{
+            font-weight: bolder;
+        }
+
+        /*Estilização da pagina (Corpo)*/
+       body{
+        background-image:url(img/SiteBackground.jpg);
+        background-repeat: no-repeat;
+       }
+
+       /*Estilização do conteduto contido em Div */
+       div{
+        display: block;
+        margin: 0 auto;
+        width: 1200px;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-image: url(img/HQ.jpg);
+        background-size: contain;
+        border-radius: 60px;
+        }
+       p {
+        color: white;
+        position:relative;
+        top: 250px;
+        left: 185px;
+        font-size:medium;
+        text-align: center;
+        width: 800px;
+        height: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       h4{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        position:relative;
+        top: 250px;
+        left: 5px;
+        font-size:medium;
+       }
+
+       /*Eslilizaçao lista class="Two" */
+    .two {
+        text-align: center;
+        width: 280px;
+        height: 350px;
+        position: fixed;
+        right: 800px;
+        bottom: 110px;
+        font-size:larger;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.233);
+        border-radius: 50px;
+    }
+    
+    </style>
+    
+</head>
+<body>
+    <!-- Titulos h1 e h2 -->
+    <h1 class="t1">Formação</h1>
+    <h2 class="t2"> Minha Formação Academica</h2>
+    <nav>
+        <ul class="one">  <!-- Lista com Links para as demais paginas do Site -->
+            <li class="li1"><a id="lk1" href="index.html">Home</a></li>
+            <li class="li1"><a id="lk2" href="SobreMim.html">Sobre Mim</a></li>
+            <li class="li1"><a id="lk3" href="Portifolio.html">Portifolio</a></li>
+            <li class="li1"><a id="lk4" href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <br><br>
+    <div>   
+    <ul class="two"> <!-- Lista com conteudo sobre Formação-->
+        <li class="li2">Ensino Médio Completo</li>
+        <li class="li2">Formado em Informatica Básica</li>
+        <li class="li2">Formado em Técnico de Manutenção e Hardware</li>
+        <li class="li2">Formado em Técnico de Soldadagem processo SMAW (Senai)</li>
+        <li class="li2">Técnico em Eletrônica Analogica (Radio / TV)</li>
+        <li class="li2">Professor de Musica (Guitarra e Vioão)</li>
+    </ul>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <!--Estilização CSS*-->
+    <style>
+        /*Formatação dos conteudos em h1 e h2*/
+        .t1{
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            background-size: contain;
+            background-color: blueviolet;
+        }
+        .t2{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        /*Formatação das listas organizadas e não organizadas */
+
+        ul {
+            list-style-type: none;
+            margin: auto;
+
+          
+        }
+        li {float: left;} /*Lista menu Flutuante Horizontal*/
+
+        
+        #lk1{
+            background-color: rgb(62, 144, 238);
+        }
+        #lk2{
+            background-color: rgb(147, 211, 187);
+        }
+        #lk3{
+            background-color: rgb(245, 184, 15);
+        }
+        #lk4{
+            background-color: rgb(80, 150, 243);
+
+
+        }
+
+        /*Interação com os links*/
+        li a {
+            display: block;
+            color: black;
+            padding: 10px 199px;
+            text-decoration: none;
+            background-color: rgb(10, 245, 245);
+            
+        }
+
+        /*Estilização mouse Sobre*/
+        li a:hover{
+            color: blue;
+        }
+
+
+        /*Estilização da pagina (Corpo)*/
+       body{
+        background-image:url(img/SiteBackground.jpg);
+        background-repeat: no-repeat;
+       }
+       
+       section{
+        text-align: center;
+        position: relative;
+        top: 200px;
+       }
+
+    </style>
+    
+</head>
+<body>
+    <!-- Titulos h1 e h2 -->
+    <h1 class="t1">Contato</h1>
+    <h2 class="t2"> Entre em contado Comigo</h2>
+    <nav>
+        <ul> <!-- Lista com Links para as demais paginas do Site-->
+            <li><a id="lk1" href="index.html">Home</a></li>
+            <li><a id="lk2" href="SobreMim.html">Sobre Mim</a></li>
+            <li><a id="lk3" href="Formacão.html">Formação</a></li>
+            <li><a id="lk4" href="Portifolio.html">Portifólio</a></li>
+        </ul>
+    </nav>
+    <section> <!--fomulario de preenchimento para contato-->
+        <form action="Enviado.html">
+            <h1>Digite seus dados</h1>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name"Email">
+            <br>
+            <br>Deixe Sua Mensagem<br>
+            <textarea name="msg" rows="10" cols="30"></textarea>
+            <input type="submit" value="enviar">
+            </form>
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!--Estilização CSS*-->
+    <style>
+        /*Estilização dos conteudos em h1 e h2*/
+        .t1{
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            background-size: contain;
+            background-color: blueviolet;
+        }
+        .t2{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+
+        /*Estilização das listas organizadas e não organizadas */
+        ul {
+            list-style-type: none;
+            margin: auto;
+
+          
+        }
+        li {float: left;} /* lista menu Flutuante Horizontal*/
+
+        
+        #lk1{
+            background-color: rgb(62, 144, 238);
+        }
+        #lk2{
+            background-color: rgb(147, 211, 187);
+        }
+        #lk3{
+            background-color: rgb(245, 184, 15);
+        }
+        #lk4{
+            background-color: rgb(80, 150, 243);
+
+
+        }
+        li a {
+            display: block;
+            color: black;
+            padding: 10px 199px;
+            text-decoration: none;
+            background-color: rgb(10, 245, 245);
+            
+        }
+
+        /* Estilização mouse Sobre*/
+        li a:hover{
+            color: blue;
+        }
+
+        /*Estilização da pagina (Corpo)*/
+       body{
+        background-image:url(img/SiteBackground.jpg);
+        background-repeat: no-repeat;
+       }
+
+       .img1{
+        position: relative;
+        width: 1850px;
+        height: 150px;
+        padding: 10px;
+        border-radius: 50px;
+       }
+
+       .imgLeft{
+        position: relative;
+        width: 500px;
+        height: 600px;
+        right: 450px;
+        border-radius: 40px;
+       }
+
+       .imgright{
+        position: relative;
+        width: 500px;
+        height: 600px;
+        right: -1300px;
+        border-radius: 40px;
+       }
+
+       .imgCenter{
+        position: relative;
+        width: 500px;
+        height: 600px;
+        right: 310px;
+        border-radius: 40px;
+       }
+    </style>
+    
+</head>
+<body>
+    <!-- Titulos h1 e h2 -->
+    <h1 class="t1">Bem-Vindos ao Site do Eliseu</h1>
+    <h2 class="t2"> Saiba Tudo Sobre Mim e Conheça-me Melhor</h2>
+    <nav>
+        <ul> <!--Lista com Links para as demais paginas do Site-->
+            <li><a id="lk1" href="SobreMim.html">Sobre Mim</a></li>
+            <li><a id="lk2" href="Formacão.html">Formação</a></li>
+            <li><a id="lk3" href="Portifolio.html">Portifólio</a></li>
+            <li><a id="lk4" href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div>
+        <img class="img1" src="img/LeuImg3.jpg" alt="banner">
+    </div>
+
+    <div>       
+        <img class="imgright" src="img/LeuImg2.jpg" alt="Minha Foto"> <!--mihna imagem centro-->
+        <img class="imgLeft" src="img/Leu Blue.png" alt="Minha Foto"> <!--mihna imagem centro-->
+        <img class="imgCenter" src="img/LeuImg1.jpg" alt="Minha Foto"> <!--mihna imagem centro-->
+ 
+    </div>
+ 
+</body>
+</html>
